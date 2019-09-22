@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".View.Activities.Write">
+
+	<EditText
+		android:layout_width="338dp"
+		android:layout_height="351dp"
+		android:inputType="textPersonName"
+		android:text="Name"
+		android:ems="10"
+		android:background="@color/paper"
+		android:imeOptions="actionSearch"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="130dp"
+		android:gravity="start|top" android:id="@+id/text"/>
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:clickable="true" app:srcCompat="@android:drawable/ic_media_play"
+		android:id="@+id/writefab"
+		android:layout_alignEnd="@+id/text" android:layout_alignRight="@+id/text"
+	android:layout_alignBottom="@+id/text"/>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="338dp"
+		android:background="@color/paper"
+		android:layout_centerHorizontal="true"
+		android:layout_height="67dp" android:layout_marginTop="24dp">
+		<Button
+			android:text="@string/gün"
+			android:layout_width="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:background="@color/paper"
+			android:layout_height="wrap_content" android:id="@+id/gün" android:layout_weight="1"/>
+		<Button
+			android:text="@string/ay"
+			android:layout_width="wrap_content"
+			android:background="@color/paper"
+			android:layout_height="wrap_content" android:id="@+id/ay"
+			android:layout_gravity="center_vertical" android:layout_weight="1"/>
+		<Button
+			android:text="@string/yil"
+			android:layout_width="wrap_content"
+			android:background="@color/paper"
+			android:layout_height="wrap_content" android:id="@+id/yil"
+			android:layout_gravity="center_vertical" android:layout_weight="1"/>
+	</LinearLayout>
+
+</RelativeLayout>
