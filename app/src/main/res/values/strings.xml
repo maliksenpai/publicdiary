@@ -1,12 +1,12 @@
 <resources>
-	<string name="app_name">Public Dairy</string>
-	<string name="intro1">Günlüğünüzü klasik bir biçimde yazıp bunları kaydeden bir uygulamadır.</string>
-	<string name="intro2">Ayrıca diğer insanların günlüğünü okuyabilirsiniz(insanlarda sizinkini okuyabilir) ama anonim
-		bir şekilde okuyabilir herkes.
-	</string>
-	<string name="maintext1">Günlüğüm</string>
-	<string name="maintext2">Günlük Oku</string>
-	<string name="gün">Gün</string>
-	<string name="ay">Ay</string>
-	<string name="yil">Yıl</string>
+    <string name="app_name">Public Dairy</string>
+    <string name="intro1">Günlüğünüzü klasik bir biçimde yazıp bunları kaydeden bir uygulamadır.</string>
+    <string name="intro2">Ayrıca diğer insanların günlüğünü okuyabilirsiniz(insanlarda sizinkini okuyabilir) ama anonim
+        bir şekilde okuyabilir herkes.
+    </string>
+    <string name="maintext1">Günlüğüm</string>
+    <string name="maintext2">Günlük Oku</string>
+    <string name="gün">Gün</string>
+    <string name="ay">Ay</string>
+    <string name="yil">Yıl</string>
 </resources>

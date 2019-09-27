@@ -25,7 +25,9 @@ class DairyModel {
                     var ay=it.child("ay").getValue()
                     var yil=it.child("yil").getValue()
                     Log.d("gelennn", (gün as Long +2 ).toString())
-                    liste?.add(DairyModule(gün as Long, ay as Long, yil as Long,yazi,eposta))
+                    if(isim==eposta){
+                        liste?.add(DairyModule(gün as Long, ay as Long, yil as Long,yazi,eposta))
+                    }
 
                 }
                 Log.d("gelen3",liste?.size.toString())

@@ -33,6 +33,7 @@ class MainMenu : AppCompatActivity() {
         Firebase= FirebaseAuth.getInstance()
         GoogleSign()
         findViewById<ImageButton>(R.id.mainbutton1).setOnClickListener { Presenter.dairy(this) }
+        findViewById<ImageButton>(R.id.mainbutton2).setOnClickListener { Presenter.read(this) }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

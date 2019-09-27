@@ -13,7 +13,7 @@
 		android:inputType="textPersonName"
 		android:text="Name"
 		android:ems="10"
-		android:clickable="false"
+		android:focusable="false"
 		android:background="@color/paper"
 		android:imeOptions="actionSearch"
 		android:layout_centerHorizontal="true"
@@ -30,20 +30,23 @@
 			android:layout_width="wrap_content"
 			android:layout_gravity="center_vertical"
 			android:background="@color/paper"
-			android:clickable="false"
+			android:enabled="false"
+			android:textColor="@color/black"
 			android:layout_height="wrap_content" android:id="@+id/gün" android:layout_weight="1"/>
 		<Button
 			android:text="@string/ay"
 			android:layout_width="wrap_content"
 			android:background="@color/paper"
-			android:clickable="false"
+			android:enabled="false"
+			android:textColor="@color/black"
 			android:layout_height="wrap_content" android:id="@+id/ay"
 			android:layout_gravity="center_vertical" android:layout_weight="1"/>
 		<Button
 			android:text="@string/yil"
 			android:layout_width="wrap_content"
 			android:background="@color/paper"
-			android:clickable="false"
+			android:enabled="false"
+			android:textColor="@color/black"
 			android:layout_height="wrap_content" android:id="@+id/yil"
 			android:layout_gravity="center_vertical" android:layout_weight="1"/>
 	</LinearLayout>
